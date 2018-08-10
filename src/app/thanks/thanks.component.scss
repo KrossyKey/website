@@ -1,0 +1,54 @@
+// The margin between two sections
+$margin-promotion-sections: 60px;
+$margin-promotion-sections-small: 15px;
+
+
+
+.button-row a {
+  margin-right: 8px;
+}
+
+.docs-header-section {
+  text-align: center;
+  padding-top: $margin-promotion-sections;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    text-align: center;
+    padding: 0 4px;
+}
+
+.docs-header-headline {
+  h1 {
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 56px;
+    margin: 15px 5px;
+    color:white
+  }
+
+  h2 {
+    color:white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 15px 0 25px 0;
+  }
+}
+
+.docs-header-start,
+.docs-homepage-bottom-start {
+  text-align: center;
+  margin: $margin-promotion-sections 0;
+}
